@@ -1,0 +1,41 @@
+.blue-box {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+}
+
+h1 {
+    font-family: 'Trebuchet MS';  /* font stack , font du phong`*/
+    font-weight: lighter;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    line-height: 1.2;
+    text-align: justify;
+
+    height: 800px;
+    background-image: url(https://images.unsplash.com/photo-1455267847942-f4fdb784f0c5?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb);
+}
+
+.rectangle {
+    display: inline-block; /*tao menu tren 1 hang*/
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    background-color: blueviolet;
+}
+
+strong {
+    display: block; 
+}
+.green-box {
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    position: sticky;
+    top: 50px;
+    left: 200px;
+    z-index: 10;
+    float: right;
+}

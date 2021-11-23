@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>betaptinh</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gluten&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h2 class="top">Bé tập tính</h2>
+  <div class="main">
+    <div class="first">
+      <h5 class="name-number">Số thứ nhất</h5>
+      <input type="number" name="firstNumber" id="firstNumber">
+      <input type="radio" name="operator" id="add"><span class="operatorName">Cộng</span>
+      <input type="radio" name="operator" id="subtraction"><span class="operatorName">Trừ</span>
+    </div>
+    <div class="second">
+      <h5 class="name-number">Số thứ hai</h5> &nbsp;
+      <input type="number" name="secondNumber" id="secondNumber">
+      <input type="radio" name="operator" id="multi"><span class="operatorName">Nhân</span> 
+      <input type="radio" name="operator" id="divide"><span class="operatorName">Chia</span>
+    </div>
+    <div class="result" id="poss">
+      <h5 class="name-number">Kết quả</h5> &nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="text" name="result" id="result" disabled> &nbsp;
+      <button type="button" onclick="doOperator()" class="favorite style" >Tính</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

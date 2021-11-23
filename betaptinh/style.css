@@ -1,0 +1,56 @@
+html {
+    background-color: #b2bec3;
+}
+
+div.main, h5 {
+    display: inline-block;
+}
+div.main {
+    width: 500px;
+    margin-left: 38%;
+    text-align: center;
+    border: 1px solid red;
+    background-image: url("https://chiase24.com/wp-content/uploads/2019/07/T%E1%BB%95ng-h%E1%BB%A3p-c%C3%A1c-h%C3%ACnh-%E1%BA%A3nh-background-%C4%91%E1%BA%B9p-nh%E1%BA%A5t-21.jpg");
+    background-position: 0%;
+}
+
+#poss {
+    text-align: left;
+    padding-left: 65px;
+}
+
+.top {
+    font-family: 'Gluten', cursive;
+    margin-left: 50%;
+    font-size: 30px;
+}
+
+.operatorName {
+    color: #FAA31B;
+    font-size: 16px;
+}
+
+.favorite {
+    background-color: #FAA31B;
+    width: 50px;
+    border-radius: 5px;
+    box-shadow: inset;
+    
+}
+
+.style:hover {
+    color: #FF6347;
+}
+
+.fisrt, .second {
+    margin: 0;
+}
+
+.name-number {
+    color:  #FAA31B;
+    font-size: 16px;
+}
+
+.add {
+    font-weight: 100;
+}
