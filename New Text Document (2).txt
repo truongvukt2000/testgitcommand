@@ -1,17 +1,1 @@
-<<<<<<< .mine
-<<<<<<< .mine
-=======
-asdasdasdas
->>>>>>> .theirs
-asdasdasdas
-<<<<<<< .mine
-=======
-=======
-
->>>>>>> .theirs
 asdasdasd
-<<<<<<< .mine
->>>>>>> .theirs
-=======
-
->>>>>>> .theirs
